@@ -1,6 +1,7 @@
 package net.dwy__.vsadditions;
 
 import com.mojang.logging.LogUtils;
+import net.dwy__.vsadditions.block.ModBlocks;
 import net.dwy__.vsadditions.item.ModCreativeModeTabs;
 import net.dwy__.vsadditions.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -26,6 +27,7 @@ public class VSAdditions {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

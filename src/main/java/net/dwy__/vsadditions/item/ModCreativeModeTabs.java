@@ -1,6 +1,7 @@
 package net.dwy__.vsadditions.item;
 
 import net.dwy__.vsadditions.VSAdditions;
+import net.dwy__.vsadditions.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.OBSIDIAN_SHARD.get());
                         pOutput.accept(ModItems.DIAMOND_INFUSED_SHARD.get());
                         pOutput.accept(ModItems.GLOWSTONE_SHARD.get());
+
+                        pOutput.accept(ModBlocks.STONE_MOSAIC.get());
                     })
                     .build());
 
