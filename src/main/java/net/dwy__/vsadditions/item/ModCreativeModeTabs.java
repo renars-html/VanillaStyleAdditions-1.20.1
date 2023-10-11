@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.OBSIDIAN_SHARD.get());
                         pOutput.accept(ModItems.DIAMOND_INFUSED_SHARD.get());
                         pOutput.accept(ModItems.GLOWSTONE_SHARD.get());
+                        pOutput.accept(ModItems.DAGGER_HANDLE.get());
 
                         pOutput.accept(ModBlocks.STONE_MOSAIC.get());
                         pOutput.accept(ModBlocks.GLOWING_STONE_MOSAIC.get());

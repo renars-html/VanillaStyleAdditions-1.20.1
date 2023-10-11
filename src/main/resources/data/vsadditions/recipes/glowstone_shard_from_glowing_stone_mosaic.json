@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vsadditions:glowing_stone_mosaic"
+    }
+  ],
+  "result": {
+    "item": "vsadditions:glowstone_shard",
+    "count": 2
+  }
+}

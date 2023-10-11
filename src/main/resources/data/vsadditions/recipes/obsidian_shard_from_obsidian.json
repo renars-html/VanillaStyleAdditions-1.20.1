@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 1200,
+  "experience": 2.5,
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": "vsadditions:obsidian_shard"
+}

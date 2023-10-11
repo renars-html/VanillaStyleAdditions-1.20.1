@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    " M ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "vsadditions:glowstone_shard"
+    },
+    "M": {
+      "item": "vsadditions:stone_mosaic"
+    }
+  },
+  "result": {
+    "item": "vsadditions:glowing_stone_mosaic",
+    "count": 1
+  }
+}
