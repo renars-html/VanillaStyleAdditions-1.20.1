@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.OBSIDIAN_SHARD.get());
                         pOutput.accept(ModItems.DIAMOND_INFUSED_SHARD.get());
+                        pOutput.accept(ModItems.GLOWSTONE_SHARD.get());
                     })
                     .build());
 

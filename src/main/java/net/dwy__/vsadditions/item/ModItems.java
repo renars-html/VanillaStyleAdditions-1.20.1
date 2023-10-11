@@ -15,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_INFUSED_SHARD = ITEMS.register("diamond_infused_shard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GLOWSTONE_SHARD = ITEMS.register("glowstone_shard",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
