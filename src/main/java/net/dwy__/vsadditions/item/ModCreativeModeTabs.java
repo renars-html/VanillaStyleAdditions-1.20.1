@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GLOWSTONE_SHARD.get());
 
                         pOutput.accept(ModBlocks.STONE_MOSAIC.get());
+                        pOutput.accept(ModBlocks.GLOWING_STONE_MOSAIC.get());
                     })
                     .build());
 
