@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "vsadditions:block/glowing_stone_mosaic_off"
+  }
+}

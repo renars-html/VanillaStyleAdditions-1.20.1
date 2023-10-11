@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "vsadditions:block/glowing_stone_mosaic_on"
+    },
+    "lite=false": {
+      "model": "vsadditions:block/glowing_stone_mosaic_off"
+    }
+  }
+}

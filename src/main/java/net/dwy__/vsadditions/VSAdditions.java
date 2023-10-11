@@ -17,6 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+
 @Mod(VSAdditions.MOD_ID)
 public class VSAdditions {
     public static final String MOD_ID = "vsadditions";
